@@ -57,7 +57,7 @@ Tan solo con el comando `ctrl + c`  se detiene la ejecución de nuestro contened
 
 Una forma alternativa es con el siguiente comando en la terminal del host:
 
-**$** `docker stop modulo_3`  
+**$** `docker stop modulo_5`  
 
 O también puede ser con docker-compose:
 Tenemos que estar en la carpeta que contiene el archivo *docker-compose.yml* y hacer:
