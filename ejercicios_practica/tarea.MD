@@ -13,8 +13,8 @@ Recuerde que no debe subir la base de datos al sistema, para ello se encuentra e
 
 ---
 
-### 1. Establecer configuraciones para el trabajo con archivos estáticos.
-A partir de lo visto en clase y de la documentación de Django Templates, realice las modificaciones necesarias en el archivo settings.py para poder trabajar con archivos estáticos, así mismo, debe crear las carpetas necesarias. 
+### 1. Establecer configuraciones para el trabajo con los templates y archivos estáticos.
+A partir de lo visto en clase y de la documentación de Django Templates, realice las modificaciones necesarias en el archivo settings.py para poder trabajar con archivos estáticos y templates, así mismo, debe crear las carpetas necesarias y ordenar las existentes.
 
 ### 2. Collectstatic
 Ejecute el comando:
