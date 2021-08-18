@@ -5,7 +5,7 @@ from e_commerce.api.marvel_api_views import *
 from e_commerce.views import *
 
 urlpatterns = [
-    # e_commerce base:
+    # e-commerce base:
     path('base', PruebaView.as_view()),
     path('text', TextView.as_view()),
     path('links', LinksView.as_view()),
