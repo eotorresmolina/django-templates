@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Formulario de Comic</title>
+    </head>
+    <body>
+        <h1>Formulario de Comic</h1>
+        <div>
+            <form action="http://localhost:8000/e-commerce/purchased_item/" method="POST">
+                {%csrf_token%}
+                <label for="id"><b>ID Comic</b></label>
+                <input type="number" name="id"><br>
+                <label for="title"><b>Title</b></label>
+                <input type="text" name="title"><br>
+                <label for="description"><b>Description</b></label>
+                <input type="text" name="description"><br>
+                <label for="prices"><b>Price USD</b></label>
+                <input type="number" step="0.01" name="prices"><br>
+                <label for="qty"><b>Quantity</b></label>
+                <input type="number" name="qty"><br>
+                <label for="thumbnail"><b>Image URL</b></label>
+                <input type="url" name="thumbnail"><br><br>
+                <input type="submit" value="Save Comic">
+            </form>
+        </div>
+    </body>
+</html>
